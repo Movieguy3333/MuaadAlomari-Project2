@@ -1,0 +1,220 @@
+header{
+  position: relative;
+  top:0px;
+  
+
+  color: #000000;
+
+
+  
+  height:100%;
+  margin:0px;
+  padding:0px;
+
+ 
+  
+  
+
+ 
+}
+.bg-image {
+ 
+  background-image: url("../images/Paris.jpg");
+  
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+
+  height: 100%; 
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+header > img {
+ width:100%;
+ max-height: 100px;
+ filter: blur(5px);
+  
+}
+
+
+
+h1 {
+  margin: 0;
+}
+
+
+
+#medal-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#medal-table td, #medal-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+
+tr:hover {
+  background-color: #b0b0b0;
+}
+
+ 
+#medal-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0903b4;
+  color: white;
+}
+
+
+
+ul {
+
+position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #783400;
+  
+    align-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    
+   
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
+  #nav{
+    justify-content:space-evenly;
+  }
+  
+  h2 button{
+    margin-left: 50px;
+  }
+  footer{
+    padding:100px;
+    
+    color: azure;
+    text-align: center;
+    background-color: #333;
+  }
+  body{
+    background-color: rgb(246, 219, 181);
+  }
+  ul {
+    display:flex;
+    justify-content:center;
+
+   
+    width:100%;
+    
+    
+    
+  }
+  
+  .total_schedule{
+    display:none;
+  }
+  .section{
+   display: flex;
+    margin:100px;
+    border:2px black solid;
+    border-radius: 7px;
+    background-color: rgb(196, 227, 230);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
+    
+  }
+
+  #medal_rankings{
+    
+    padding:10px;
+    justify-content: center;
+    text-align: center;
+   
+    
+  }
+  #sports{
+    display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .schedule{
+    background-color: #ffffff;
+    display: flex;
+   
+  
+   
+    margin-bottom: 30px;
+    
+    padding:20px;
+    font-size: 20px;
+
+    border: 1px black solid;
+    border-radius: 23px;
+  
+  }
+  .time-of-event{
+    margin-right: 12px;
+   padding-right: 30px;
+ 
+   
+    border-right: 2px black solid;
+  
+  }
+  
+  
+  
+
+  
+  body,html {
+    max-width: 100%;
+    max-height: 100%;
+   
+    overflow-x: hidden;
+   
+    margin:0;
+    padding:0;
+    
+   
+    
+  
+}
+
+
+
+  
