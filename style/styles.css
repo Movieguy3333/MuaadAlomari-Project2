@@ -9,7 +9,13 @@ header{
   
   height:100%;
   margin:0px;
-  padding:0px;
+  padding:40px;
+  background-image: url("../images/Paris.jpg");
+  text-shadow: 2px 2px #daae00;
+
+
+
+  
 
  
   
@@ -17,7 +23,7 @@ header{
 
  
 }
-.bg-image {
+.paris-img {
  
   background-image: url("../images/Paris.jpg");
   
@@ -50,12 +56,16 @@ h1 {
   margin: 0;
 }
 
-
+#medal-table:hover{
+  transform: scale(1.02);
+}
 
 #medal-table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  transition: all .1s ease-in-out; 
+  
 }
 
 #medal-table td, #medal-table th {
@@ -66,7 +76,7 @@ h1 {
 
 
 tr:hover {
-  background-color: #b0b0b0;
+  color: #a80303;
 }
 
  
@@ -74,7 +84,7 @@ tr:hover {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #0903b4;
+  background-color: #030cb4;
   color: white;
 }
 
@@ -128,7 +138,7 @@ position: relative;
     background-color: #333;
   }
   body{
-    background-color: rgb(246, 219, 181);
+    background-color: rgb(227, 222, 155);
   }
   ul {
     display:flex;
@@ -154,6 +164,7 @@ position: relative;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background-image: linear-gradient(to bottom right, rgb(228, 133, 133), rgb(188, 188, 4));
    
     
   }
@@ -214,6 +225,11 @@ position: relative;
     
   
 }
+.entire-section{
+  display:flex;
+  flex-direction: column;
+}
+
 
 
 
