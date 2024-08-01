@@ -76,3 +76,27 @@ function showVollyBallSchedule() {
 }
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const countriesData = [
+        { countryRank: 1, country: 'AUS', goldMedals: 3, silverMedals: 2, bronzeMedals: 0},
+        { countryRank: 2, country: 'CNA', goldMedals: 3, silverMedals: 0, bronzeMedals: 1},
+        { countryRank: 3, country: 'KOR', goldMedals: 2, silverMedals: 2, bronzeMedals: 1},
+        { countryRank: 4, country: 'USA', goldMedals: 1, silverMedals: 2, bronzeMedals: 2 },
+        { countryRank: 5, country: 'FRA',  goldMedals: 1, silverMedals: 2, bronzeMedals: 1},
+        { countryRank: 6, country: 'BEL', goldMedals: 1, silverMedals: 0, bronzeMedals: 1},
+        { countryRank: 7, country: 'JPN', goldMedals: 1, silverMedals: 0, bronzeMedals: 1 },
+        { countryRank: 8, country: 'KAZ', goldMedals: 1, silverMedals: 0, bronzeMedals: 1},
+        { countryRank: 9, country: 'GER', goldMedals: 1, silverMedals: 0, bronzeMedals: 0 },
+        { countryRank: 10, country: 'HKG', goldMedals: 1, silverMedals: 0, bronzeMedals: 0 }
+    ];
+
+    let tableContent = document.getElementById('dynamic-table');
+
+    
+    countriesData.forEach(element => {
+        
+        let tableRow = document.createElement('tr');
+     tableRow.innerHTML = ` <td>${element.countryRank}</td><td>${element.country}</td><td>${element.goldMedals}</td> <td>${element.silverMedals}</td> <td>${element.bronzeMedals}</td>`;
+        tableContent.appendChild(tableRow);
+    });
+});
