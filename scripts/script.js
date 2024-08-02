@@ -3,7 +3,7 @@ basketball_button.addEventListener("click", showBasketBallSchedule);
 
 
 function showBasketBallSchedule() {
-    if (document.getElementById("basketball_schedule").style.display  != "none"){
+    if (document.getElementById("basketball_schedule").style.display  == "block"){
         document.getElementById("basketball_schedule").style.display  = "none";
         basketball_button.innerText = "Show Schedules"
     }
@@ -18,7 +18,7 @@ archery_button.addEventListener("click", showArcherySchedule);
 
 
 function showArcherySchedule() {
-    if (document.getElementById("archery_schedule").style.display  != "none"){
+    if (document.getElementById("archery_schedule").style.display  == "block"){
         document.getElementById("archery_schedule").style.display  = "none";
         archery_button.innerText = "Show Schedules"
     }
@@ -34,7 +34,7 @@ fencing_button.addEventListener("click", showFencingSchedule);
 
 
 function showFencingSchedule() {
-    if (document.getElementById("fencing_schedule").style.display  != "none"){
+    if (document.getElementById("fencing_schedule").style.display  == "block"){
         document.getElementById("fencing_schedule").style.display  = "none";
         fencing_button.innerText = "Show Schedules"
     }
@@ -49,7 +49,7 @@ golf_button.addEventListener("click", showGolfSchedule);
 
 
 function showGolfSchedule() {
-    if (document.getElementById("golf_schedule").style.display  != "none"){
+    if (document.getElementById("golf_schedule").style.display  == "block"){
         document.getElementById("golf_schedule").style.display  = "none";
         golf_button.innerText = "Show Schedules"
     }
@@ -64,7 +64,7 @@ vollyball_button.addEventListener("click", showVollyBallSchedule);
 
 
 function showVollyBallSchedule() {
-    if (document.getElementById("vollyball_schedule").style.display  != "none"){
+    if (document.getElementById("vollyball_schedule").style.display  == "block"){
         document.getElementById("vollyball_schedule").style.display  = "none";
         vollyball_button.innerText = "Show Schedules"
     }
